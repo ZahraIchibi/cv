@@ -1,14 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-	<!-- TODO 
-		- Add 3 langagues : arabe, france english
-	
-	-->
 	
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>ICHIBI</title>
+	<title>ICHIBI - ERP integration and web development</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="odoo, freelance, erp, customization,community,hire ,support,integration,software,developers,,implementation ,website,docker,consulting ,project management,crm,tarif,formation ,comptabilité,intégrateur,integrateur,dashboard,saas,client,odoo france" />
@@ -28,6 +24,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="images/AvatarMaker.png" />
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -45,6 +42,10 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+
+	
+	
 
 	</head>
 	<body>
@@ -59,14 +60,33 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+						<p>
+						
+                            <button id="enButton" class="btn btn-default"><span class="flag-icon flag-icon-gb"></span> English</button>
+                            <button id="frButton" class="btn btn-default"><span class="flag-icon flag-icon-fr"></span> Français</button>
+                            
+                        </p>
 							<div class="profile-thumb" style="background: url(images/AvatarMaker.png);"></div>
-							<h1><span>Zahra ICHIBI</span></h1>
-							<h3><span>Web Developer | Business Analysts | Odoo Functional & Technical Consultant</span></h3>
-							<p>
+							<div class="lang-en">
+								<h2><span>Web Developer | Business Analysts | Odoo Functional & Technical Consultant</span></h2>
+								<h3>
+									<span>As a professional passionate about ERP integration and web development,
+										I have had the privilege of supporting many companies in realizing their digital ambitions.</p>
+									</span>
+								</h3>
+							</div>
+							<div class="lang-fr" style="display:none;">
+								<h2><span>Développeur Web | Analyste d'affaires | Consultant fonctionnel et technique Odoo</span></h2>
+								<h3>
+									<span>En tant que professionnel passionné par l'intégration ERP et le développement web,
+										J'ai eu le privilège de soutenir de nombreuses entreprises dans la réalisation de leurs ambitions numériques.
+									<br/></span>
+								</h3><br/>
+							</div>
 								<ul class="fh5co-social-icons">
 								<!--icon medium-->
-									<li><a href="#"><i class="icon-linkedin2"></i></a></li>
-									<li><a href="#"><i class="fa fa-medium"></i></a></li>
+									<li><a href="https://www.linkedin.com/in/ichibizahra/" target="_blank"><i class="icon-linkedin2"></i></a></li>
+									<li><a href="https://medium.com/@ichibizahra" target="_blank"><i class="fa fa-medium"></i></a></li>
 								</ul>
 							</p>
 						</div>
@@ -76,59 +96,8 @@
 		</div>
 	</header>
 
-	<div id="fh5co-about" class="animate-box">
+	<div id="fh5co-resume" class="fh5co-bg-color lang-en" >
 		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>About Me</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<ul class="info">
-						<li><span class="first-block">Full Name:</span><span class="second-block">Zahra ICHIBI</span></li>
-						<li><span class="first-block">Email:</span><span class="second-block">ichibizahra@gmail.com</span></li>
-						<li><span class="first-block">Website:</span><span class="second-block">www.ichibi.com</span></li>
-					</ul>
-				</div>
-				<div class="col-md-8">
-					<h2>Hello There!</h2>
-					<p>
-					
-					Are you using Odoo and looking to make the most out of it? Do you have numerous ideas in mind that you'd like to implement in Odoo? If so, you definitely need a consultant to assist you with bringing those ideas to life. And right now, you're looking at one of the best Odoo consultants you'll ever come across!
-<br>
-Hello there, my name is Zahra.
-<br>
-I am an expert in Odoo, proficient in both functional and technical aspects, including Odoo development. I have gained extensive experience in implementing Odoo across various companies, from small to large-scale enterprises, manufacturers, services, retail companies, and more.
-<br>
-Here are the modules in which I excel: <br>
-- CRM <br>
-- Sales <br>
-- Point of Sale <br>
-- Inventory <br>
-- Purchase <br>
-- Manufacturing <br>
-- Accounting <br>
-- Human Resources (Attendance, Payroll, Expense, etc...) <br>
-- Project Management <br>
-- Website <br>
-- And many more <br>
-
-If you have any Odoo-related needs, don't hesitate to contact me. Even if it's just for a discussion, I'll be more than happy to assist you.
-					</p>					
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-resume" class="fh5co-bg-color">
-		<div class="container">
-			<div class="row animate-box">
-				<!-- Calendly inline widget begin -->
-					<div class="calendly-inline-widget" data-url="https://calendly.com/d/ckht-fdc-q3s?hide_gdpr_banner=1&primary_color=ff9000" style="min-width:320px;height:700px;"></div>
-					<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-					<!-- Calendly inline widget end -->
-			</div>
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>My Resume</h2>
@@ -148,30 +117,11 @@ If you have any Odoo-related needs, don't hesitate to contact me. Even if it's j
 									<span class="company">ME ENGINEERING EXPERTISE - 2022 - 2024</span>
 								</div>
 								<div class="timeline-body">
-									<p>
-									Responsibilities:
-
-									<br/>Develop Solutions for Clients:
-
-									<br/>Collaborate with clients to understand their business needs and requirements.
-									<br/>Design and implement tailored solutions to meet client-specific objectives.
-									<br/>Ensure solutions are scalable, efficient, and aligned with industry best practices.
-									<br/>Support and Maintain Specific Solutions:
-
-									<br/>Provide ongoing support for deployed solutions, addressing any issues or bugs that arise.
-									<br/>Perform regular maintenance and updates to ensure optimal performance and security.
-									<br/>Monitor system performance and make necessary adjustments to improve reliability.
-									<br/>Analysis and Development of Custom Features:
-
-									<br/>Conduct in-depth analysis to identify opportunities for custom features that enhance solution functionality.
-									<br/>Develop and integrate custom features, ensuring seamless integration with existing systems.
-									<br/>Test custom features rigorously to ensure they meet quality standards and client expectations.
-									<br/>Support and Train End-Users:
-
-									<br/>Offer comprehensive support to end-users, helping them navigate and utilize solutions effectively.
-									<br/>Develop and deliver training programs to ensure users are proficient with new features and functionalities.
-									<br/>Create user manuals, tutorials, and other training materials to facilitate easy adoption and usage.
-									</p>
+									<p>Collaborate with clients to understand their <b>business needs and requirements</b>.</p>
+									<p>Design and implement tailored solutions to <b>meet client-specific objectives</b>.</p>
+									<p>Provide <b>ongoing support</b> for deployed solutions, addressing any issues or bugs that arise.</p>
+									<p>Perform regular <b>maintenance and updates</b> to ensure optimal performance and security.</p>
+									<p>Create user manuals, tutorials to facilitate <b>easy adoption and usage</b>.</p>
 								</div>
 							</div>
 						</li>
@@ -183,17 +133,13 @@ If you have any Odoo-related needs, don't hesitate to contact me. Even if it's j
 									<span class="company">DISFAST GROUP - 2021 - 2022</span>
 								</div>
 								<div class="timeline-body">
-									<p>
-									Responsibilities:
-
-									<br/>Understanding the overall market, competitors, and open-source technologies.
-									<br/>Working closely with stakeholders to understand needs and priorities.
-									<br/>Translating market and stakeholder needs into product requirements and definitions.
-									<br/>Monitoring the status of developing software.
-									<br/>Ensuring market analysis, benchmarking trends, launch follow-ups, and presentations.
-									<br/>Defining, in coordination with the Sales team, the overall strategy for the product (4 Ps: Product, Pricing, Promotion, and Placement).
-									<br/>Ensuring product launch readiness, including technical information, product presentations, brochures, and trainings for each product.
-									</p>
+									<p>Understanding the <b>overall market</b>, competitors, and open-source technologies.</p>
+									<p>Working closely with stakeholders to <b>understand needs and priorities</b>.</p>
+									<p>Translating market and stakeholder <b>needs into product requirements</b>.</p>
+									<p>Monitoring the <b>status of developing software</b>.</p>
+									<p>Ensuring <b>market analysis</b>, benchmarking trends, launch follow-ups, and presentations.</p>
+									<p>Defining, in coordination with the Sales team, the <b>overall strategy for the product</b>.</p>
+									<p>Ensuring <b>product launch readiness</b>, including technical information, product presentations, brochures, and trainings.</p>
 								</div>
 							</div>
 						</li>
@@ -205,25 +151,15 @@ If you have any Odoo-related needs, don't hesitate to contact me. Even if it's j
 									<span class="company">WEELITE - 2019 - 2021</span>
 								</div>
 								<div class="timeline-body">
-									<p>
-									Responsibilities:
 
-									<br/>Held responsibility for one or multiple functional processes, conducting in-depth analyses.
-									<br/>Analyzed and modeled business user needs to align with the ERP system.
-									<br/>Defined detailed functional specifications and prepared functional requirement documents.
-									<br/>Facilitated the creation of functional specifications.
-									<br/>Participated actively in project implementation and solution validation.
-									<br/>Odoo Techno-Functional Consultant:
-
-									<br/>Conducted comprehensive studies and formalized client requirements, tailoring processes to Odoo ERP.
-									<br/>Modeled and designed use cases for efficient system implementation.
-									<br/>Installed and configured Odoo settings based on specific business needs.
-									<br/>Developed customized modules to streamline business processes.
-									<br/>Successfully prepared, executed, and validated application tests.
-									<br/>Provided user training and support during the change management process.
-									<br/>Authored user manuals and explanatory videos for seamless system adoption.
+									<p>Analyzed and modeled business <b>user needs to align with the ERP</b> system.</p>
+									<p>Defined detailed functional specifications and prepared <b>functional requirement documents</b>.</p>
+									<p>Participated actively in <b>project implementation</b> and solution validation.</p>
+									<p>Installed and configured <b>Odoo settings</b> based on specific business needs.</p>
+									<p>Developed <b>customized modules</b> to streamline business processes.</p>
+									<p>Provided <b>user training</b> and support during the change management process.</p>
+									<p>Authored <b>user manuals</b> and explanatory videos for seamless system adoption.</p>
 									
-									</p>
 								</div>
 							</div>
 						</li>
@@ -241,7 +177,9 @@ If you have any Odoo-related needs, don't hesitate to contact me. Even if it's j
 								</div>
 								<div class="timeline-body">
 									<p>
-										The program combines technical and managerial coursework, covering areas such as database management, IT project management, enterprise systems, cybersecurity, and data analytics.
+										The program <b>combines technical and managerial coursework</b>, 
+										covering areas such as <b>database management, IT project management, 
+										enterprise systems, cybersecurity, and data analytics</b>.
 									</p>
 								</div>
 							</div>
@@ -256,9 +194,8 @@ If you have any Odoo-related needs, don't hesitate to contact me. Even if it's j
 								<div class="timeline-body">
 									<p>
 									
-									The program covers core areas of software development, 
-									including programming, algorithms, data structures, and software design. 
-									It also delves into advanced topics in computer systems and network administration,
+									The program covers <b>programming, algorithms, data structures, and software design</b>. 
+									It also delves into advanced topics in <b>computer systems and network administration</b>,
 									such as system security, network configuration, and IT infrastructure management.
 									</p>
 								</div>
@@ -268,39 +205,156 @@ If you have any Odoo-related needs, don't hesitate to contact me. Even if it's j
 							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">Participation in Machine Learning Program</h3>
-									<span class="company">Deltanalytics - 2018</span>
+									<h3 class="timeline-title">Technical University degree in Computer Engineering</h3>
+									<span class="company">University Ibn Zohr - 2014 - 2016</span>
 								</div>
 								<div class="timeline-body">
 									<p>
-									Engaged in intensive training sessions covering advanced data analytics techniques and tools.
-									<br/>Collaborated with a diverse group of professionals and experts to tackle real-world data challenges.
-									<br/>Applied analytical skills to various projects, gaining hands-on experience in data analysis, interpretation, and visualization.
+									The curriculum covers <b>software development, network administration, database management, and cybersecurity</b>.
 									
 									</p>
 								</div>
 							</div>
 						</li>
-						<!-- <li class="animate-box timeline-unverted"> -->
-							<!-- <div class="timeline-badge"><i class="icon-graduation-cap"></i></div> -->
-							<!-- <div class="timeline-panel"> -->
-								<!-- <div class="timeline-heading"> -->
-									<!-- <h3 class="timeline-title">Graduation</h3> -->
-									<!-- <span class="company">College Name - 1994 - 1998</span> -->
-								<!-- </div> -->
-								<!-- <div class="timeline-body"> -->
-									<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
-								<!-- </div> -->
-							<!-- </div> -->
-						<!-- </li> -->
+						
 			    	</ul>
 				</div>
 			</div>
 		</div>
 	</div>
 	
+	<div id="fh5co-resume" class="fh5co-bg-color lang-fr" style="display:none;">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Mon CV</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Expérience Professionnelle</h3></div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Développeur Odoo / Consultant Technique</h3>
+									<span class="company">ME ENGINEERING EXPERTISE - 2022 - 2024</span>
+                            
+								</div>
+								<div class="timeline-body">
+									<p>Collaborer avec les clients pour comprendre leurs <b>besoins et exigences métier</b>.</p>
+									<p>Concevoir et mettre en œuvre des solutions personnalisées pour <b>répondre aux objectifs spécifiques des clients</b>.</p>
+									<p>Fournir un <b>soutien continu</b> pour les solutions déployées, en résolvant les problèmes ou les bugs qui surviennent.</p>
+									<p>Effectuer des <b>maintenances et mises à jour régulières</b> pour garantir des performances et une sécurité optimales.</p>
+									<p>Créer des <b>manuels utilisateurs</b>, des tutoriels pour faciliter l'adoption et l'utilisation.</p>
+                            
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Responsable Développement Produit</h3>
+									<span class="company">DISFAST GROUP - 2021 - 2022</span>
+								</div>
+								<div class="timeline-body">
+									<p><b>Comprendre le marché global</b>, les concurrents et les technologies open-source.</p>
+									<p>Travailler en étroite collaboration avec les parties prenantes pour <b>comprendre les besoins et priorités</b>.</p>
+									<p>Traduire les <b>besoins du marché et des parties prenantes en exigences produit</b>.</p>
+									<p>Surveiller le <b>statut du développement logiciel</b>.</p>
+									<p>Assurer une <b>analyse du marché</b>, un benchmarking des tendances, des suivis de lancement et des présentations.</p>
+									<p>Définir, en coordination avec l'équipe commerciale, la <b>stratégie globale pour le produit</b>.</p>
+									<p>Garantir la <b>préparation au lancement du produit</b>, y compris les informations techniques, les présentations produit, les brochures et les formations.</p>
+                            
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Analyste Fonctionnel & Consultant Techno-Fonctionnel Odoo</h3>
+									<span class="company">WEELITE - 2019 - 2021</span>
+								</div>
+								<div class="timeline-body">
 
-	<div id="fh5co-features" class="animate-box">
+									 <p>Analyser et modéliser les <b>besoins des utilisateurs métier</b> pour les aligner avec le système ERP.</p>
+									<p>Définir des spécifications fonctionnelles détaillées et préparer des <b>documents de besoins fonctionnels</b>.</p>
+									<p>Participer activement à la <b>mise en œuvre du projet</b> et à la validation des solutions.</p>
+									<p>Installer et configurer les <b>paramètres Odoo</b> en fonction des besoins spécifiques de l'entreprise.</p>
+									<p>Développer des <b>modules personnalisés</b> pour rationaliser les processus métier.</p>
+									<p>Fournir des <b>formations utilisateur</b> et un support pendant le processus de gestion du changement.</p>
+									<p>Rédiger des <b>manuels utilisateurs</b> et des vidéos explicatives pour une adoption fluide du système.</p>
+                           
+									
+								</div>
+							</div>
+						</li>
+
+						<br>
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Éducation</h3></div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+                                <h3 class="timeline-title">Master en Management des Systèmes d'Information</h3>
+                                <span class="company">Université Ibn Zohr - 2017 - 2019</span>
+								</div>
+								<div class="timeline-body">
+									 <p>
+										Le programme <b>combine des cours techniques et managériaux</b>, 
+										couvrant des domaines tels que <b>la gestion de bases de données, la gestion de projets informatiques, 
+										les systèmes d'entreprise, la cybersécurité et l'analyse de données</b>.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Licence en Génie Logiciel, Administration Avancée des Systèmes Informatiques et des Réseaux</h3>
+									<span class="company">Université Hassan 2 - 2016 - 2017</span>
+								</div>
+								<div class="timeline-body">
+									 <p>
+										Le programme couvre <b>la programmation, les algorithmes, les structures de données et la conception logicielle</b>. 
+										Il aborde également des sujets avancés en <b>administration des systèmes informatiques et des réseaux</b>,
+										tels que la sécurité des systèmes, la configuration des réseaux et la gestion de l'infrastructure informatique.
+									</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Diplôme Universitaire de Technologie en Génie Informatique</h3>
+									<span class="company">Université Ibn Zohr - 2014 - 2016</span>
+								</div>
+								<div class="timeline-body">
+									<p>
+										Le programme couvre <b>le développement de logiciels, l'administration des réseaux, la gestion des bases de données et la cybersécurité</b>.
+									</p>
+								</div>
+							</div>
+						</li>
+						
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<div id="fh5co-features" class="animate-box lang-en">
 		<div class="container">
 			<div class="services-padding">
 				<div class="row">
@@ -320,9 +374,8 @@ If you have any Odoo-related needs, don't hesitate to contact me. Even if it's j
 								<i class="icon-paintbrush"></i>
 							</span>
 							<div class="feature-copy">
-								<h3>Odoo System Implementation</h3>
-								<p>Full-cycle implementation of Odoo ERP systems tailored to the client's business needs.
-								<br/>Customization of Odoo modules to fit specific business processes.
+								<h3>Odoo Implementation</h3>
+								<p>Deploy and configure Odoo ERP system to meet the specific needs and requirements of your business
 								</p>
 							</div>
 						</div>
@@ -330,7 +383,7 @@ If you have any Odoo-related needs, don't hesitate to contact me. Even if it's j
 					<div class="col-md-4 text-center">
 						<div class="feature-left">
 							<span class="icon">
-								<i class="icon-paintbrush"></i>
+								<i class="icon-briefcase"></i>
 							</span>
 							<div class="feature-copy">
 								<h3>Odoo Module Development</h3>
@@ -340,27 +393,15 @@ If you have any Odoo-related needs, don't hesitate to contact me. Even if it's j
 							</div>
 						</div>
 					</div>
+					
 					<div class="col-md-4 text-center">
 						<div class="feature-left">
 							<span class="icon">
-								<i class="icon-paintbrush"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Odoo Training and Support</h3>
-								<p>Training sessions for end-users to maximize the use of Odoo.
-								<br/>Ongoing support and maintenance for existing Odoo implementations.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-paintbrush"></i>
+								<i class="icon-search"></i>
 							</span>
 							<div class="feature-copy">
 								<h3>Business Process Analysis and Optimization</h3>
-								<p>Analyzing and modeling business processes to optimize efficiency using Odoo.
+								<p>Analyzing and modeling business processes to optimize efficiency.
 								<br/>Developing detailed functional specifications and requirement documents.
 								</p>
 							</div>
@@ -401,7 +442,7 @@ If you have any Odoo-related needs, don't hesitate to contact me. Even if it's j
 					<div class="col-md-4 text-center">
 						<div class="feature-left">
 							<span class="icon">
-								<i class="icon-search"></i>
+								<i class="icon-paintbrush"></i>
 							</span>
 							<div class="feature-copy">
 								<h3> Website Maintenance and Support</h3>
@@ -411,56 +452,12 @@ If you have any Odoo-related needs, don't hesitate to contact me. Even if it's j
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>IT Consulting</h2>
-					</div>	
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-briefcase"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Technical Consulting</h3>
-								<p>Providing expert advice on IT infrastructure and system architecture.
-								<br/>Recommending and implementing IT solutions to meet business goals.</p>
-							</div>
-						</div>
-
-					</div>
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-briefcase"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Project Management</h3>
-								<p>Managing IT projects from initiation to completion.
-								<br/>Ensuring projects are delivered on time, within budget, and meet client specifications.
-								</p>
-							</div>
-						</div>
-
-					</div>
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-briefcase"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Cybersecurity and Data Protection</h3>
-								<p>Assessing and improving the security of IT systems.
-								<br/>Implementing data protection measures and ensuring compliance with regulations.</p>
-							</div>
-						</div>
-
-					</div>
-				</div>
+				
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 						<h2>Training and Educational Services</h2>
-					</div>	
-					<div class="col-md-4 text-center">
+						
+					<div class="col-md-6 text-center">
 						<div class="feature-left">
 							<span class="icon">
 								<i class="icon-briefcase"></i>
@@ -473,10 +470,10 @@ If you have any Odoo-related needs, don't hesitate to contact me. Even if it's j
 						</div>
 
 					</div>
-					<div class="col-md-4 text-center">
+					<div class="col-md-6 text-center">
 						<div class="feature-left">
 							<span class="icon">
-								<i class="icon-briefcase"></i>
+								<i class="icon-paintbrush"></i>
 							</span>
 							<div class="feature-copy">
 								<h3>Technical Writing</h3>
@@ -488,356 +485,363 @@ If you have any Odoo-related needs, don't hesitate to contact me. Even if it's j
 						</div>
 
 					</div>
-					
+					</div>
 				</div>
 				
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Additional Services</h2>
-					</div>	
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-briefcase"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Custom Software Development</h3>
-								<p>Building custom software solutions to address specific business requirements.
-								<br/>Integrating various systems and ensuring seamless data flow.</p>
-							</div>
-						</div>
-
-					</div>
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-briefcase"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Business Intelligence and Data Analytics</h3>
-								<p>Implementing BI tools to provide actionable insights.
-								<br/>Analyzing data to help businesses make informed decisions.
-								</p>
-							</div>
-						</div>
-
-					</div>
-					
-				</div>
+				
 				
 			</div>
 		</div>
 	</div>
-
-	<!-- <div id="fh5co-skills" class="animate-box"> -->
-		<!-- <div class="container"> -->
-			<!-- <div class="row"> -->
-				<!-- <div class="col-md-8 col-md-offset-2 text-center fh5co-heading"> -->
-					<!-- <h2>Skills</h2> -->
-				<!-- </div> -->
-			<!-- </div> -->
-			<!-- <div class="row row-pb-md"> -->
-				<!-- <div class="col-md-3 col-sm-6 col-xs-12 text-center"> -->
-					<!-- <div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-3 col-sm-6 col-xs-12 text-center"> -->
-					<!-- <div class="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-3 col-sm-6 col-xs-12 text-center"> -->
-					<!-- <div class="chart" data-percent="90"><span><strong>jQuery</strong>90%</span></div> -->
-				<!-- </div> -->
-
-				<!-- <div class="col-md-3 col-sm-6 col-xs-12 text-center"> -->
-					<!-- <div class="chart" data-percent="89"><span><strong>PHP</strong>89%</span></div> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-3 col-sm-6 col-xs-12 text-center"> -->
-					<!-- <div class="chart" data-percent="85"><span><strong>MySQL</strong>85%</span></div> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-3 col-sm-6 col-xs-12 text-center"> -->
-					<!-- <div class="chart" data-percent="90"><span><strong>AngularJS</strong>90%</span></div> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-3 col-sm-6 col-xs-12 text-center"> -->
-					<!-- <div class="chart" data-percent="85"><span><strong>Ruby</strong>85%</span></div> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-3 col-sm-6 col-xs-12 text-center"> -->
-					<!-- <div class="chart" data-percent="90"><span><strong>Java</strong>90%</span></div> -->
-				<!-- </div> -->
-			<!-- </div> -->
-			<!-- <div class="row"> -->
-				<!-- <div class="col-md-6"> -->
-					<!-- <div class="progress-wrap"> -->
-						<!-- <h3><span class="name-left">HTML5/CSS3</span><span class="value-right">95%</span></h3> -->
-						<!-- <div class="progress"> -->
-						  <!-- <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar" -->
-						  <!-- aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%"> -->
-						  <!-- </div> -->
-						<!-- </div> -->
-					<!-- </div> -->
-					<!-- <div class="progress-wrap"> -->
-						<!-- <h3><span class="name-left">WordPress</span><span class="value-right">90%</span></h3> -->
-						<!-- <div class="progress"> -->
-						  <!-- <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar" -->
-						  <!-- aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%"> -->
-						  <!-- </div> -->
-						<!-- </div> -->
-					<!-- </div> -->
-					<!-- <div class="progress-wrap"> -->
-						<!-- <h3><span class="name-left">PHP</span><span class="value-right">80%</span></h3> -->
-						<!-- <div class="progress"> -->
-						  <!-- <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar" -->
-						  <!-- aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"> -->
-						  <!-- </div> -->
-						<!-- </div> -->
-					<!-- </div> -->
-					<!-- <div class="progress-wrap"> -->
-						<!-- <h3><span class="name-left">Java</span><span class="value-right">85%</span></h3> -->
-						<!-- <div class="progress"> -->
-						  <!-- <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar" -->
-						  <!-- aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%"> -->
-						  <!-- </div> -->
-						<!-- </div> -->
-					<!-- </div> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-6"> -->
-					<!-- <div class="progress-wrap"> -->
-						<!-- <h3><span class="name-left">Design</span><span class="value-right">100%</span></h3> -->
-						<!-- <div class="progress"> -->
-						  <!-- <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar" -->
-						  <!-- aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%"> -->
-						  <!-- </div> -->
-						<!-- </div> -->
-					<!-- </div> -->
-					<!-- <div class="progress-wrap"> -->
-						<!-- <h3><span class="name-left">Ruby</span><span class="value-right">70%</span></h3> -->
-						<!-- <div class="progress"> -->
-						  <!-- <div class="progress-bar progress-bar-striped active" role="progressbar" -->
-						  <!-- aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"> -->
-						  <!-- </div> -->
-						<!-- </div> -->
-					<!-- </div> -->
-					<!-- <div class="progress-wrap"> -->
-						<!-- <h3><span class="name-left">Python</span><span class="value-right">85%</span></h3> -->
-						<!-- <div class="progress"> -->
-						  <!-- <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar" -->
-						  <!-- aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%"> -->
-						  <!-- </div> -->
-						<!-- </div> -->
-					<!-- </div> -->
-					<!-- <div class="progress-wrap"> -->
-						<!-- <h3><span class="name-left">jQuery</span><span class="value-right">75%</span></h3> -->
-						<!-- <div class="progress"> -->
-						  <!-- <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar" -->
-						  <!-- aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%"> -->
-						  <!-- </div> -->
-						<!-- </div> -->
-					<!-- </div> -->
-				<!-- </div> -->
-			<!-- </div> -->
-		<!-- </div> -->
-	<!-- </div> -->
-
-	<!-- <div id="fh5co-work" class="fh5co-bg-dark"> -->
-		<!-- <div class="container"> -->
-			<!-- <div class="row animate-box"> -->
-				<!-- <div class="col-md-8 col-md-offset-2 text-center fh5co-heading"> -->
-					<!-- <h2>Work</h2> -->
-				<!-- </div> -->
-			<!-- </div> -->
-			<!-- <div class="row"> -->
-				<!-- <div class="col-md-3 text-center col-padding animate-box"> -->
-					<!-- <a href="#" class="work" style="background-image: url(images/portfolio-1.jpg);"> -->
-						<!-- <div class="desc"> -->
-							<!-- <h3>Project Name</h3> -->
-							<!-- <span>Illustration</span> -->
-						<!-- </div> -->
-					<!-- </a> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-3 text-center col-padding animate-box"> -->
-					<!-- <a href="#" class="work" style="background-image: url(images/portfolio-2.jpg);"> -->
-						<!-- <div class="desc"> -->
-							<!-- <h3>Project Name</h3> -->
-							<!-- <span>Brading</span> -->
-						<!-- </div> -->
-					<!-- </a> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-3 text-center col-padding animate-box"> -->
-					<!-- <a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);"> -->
-						<!-- <div class="desc"> -->
-							<!-- <h3>Project Name</h3> -->
-							<!-- <span>Illustration</span> -->
-						<!-- </div> -->
-					<!-- </a> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-3 text-center col-padding animate-box"> -->
-					<!-- <a href="#" class="work" style="background-image: url(images/portfolio-4.jpg);"> -->
-						<!-- <div class="desc"> -->
-							<!-- <h3>Project Name</h3> -->
-							<!-- <span>Design</span> -->
-						<!-- </div> -->
-					<!-- </a> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-3 text-center col-padding animate-box"> -->
-					<!-- <a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);"> -->
-						<!-- <div class="desc"> -->
-							<!-- <h3>Project Name</h3> -->
-							<!-- <span>Website</span> -->
-						<!-- </div> -->
-					<!-- </a> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-3 text-center col-padding animate-box"> -->
-					<!-- <a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);"> -->
-						<!-- <div class="desc"> -->
-							<!-- <h3>Project Name</h3> -->
-							<!-- <span>Illustration</span> -->
-						<!-- </div> -->
-					<!-- </a> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-3 text-center col-padding animate-box"> -->
-					<!-- <a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);"> -->
-						<!-- <div class="desc"> -->
-							<!-- <h3>Project Name</h3> -->
-							<!-- <span>Brading</span> -->
-						<!-- </div> -->
-					<!-- </a> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-3 text-center col-padding animate-box"> -->
-					<!-- <a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);"> -->
-						<!-- <div class="desc"> -->
-							<!-- <h3>Project Name</h3> -->
-							<!-- <span>Illustration</span> -->
-						<!-- </div> -->
-					<!-- </a> -->
-				<!-- </div> -->
-			<!-- </div> -->
-		<!-- </div> -->
-	<!-- </div> -->
-
-	<!-- <div id="fh5co-blog"> -->
-		<!-- <div class="container"> -->
-			<!-- <div class="row animate-box"> -->
-				<!-- <div class="col-md-8 col-md-offset-2 text-center fh5co-heading"> -->
-					<!-- <h2>Post on Medium</h2> -->
-					<!-- <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p> -->
-				<!-- </div> -->
-			<!-- </div> -->
-			<!-- <div class="row"> -->
-				<!-- <div class="col-md-4"> -->
-					<!-- <div class="fh5co-blog animate-box"> -->
-						<!-- <a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a> -->
-						<!-- <div class="blog-text"> -->
-							<!-- <span class="posted_on">Mar. 15th 2016</span> -->
-							<!-- <h3><a href="#">Photoshoot On The Street</a></h3> -->
-							<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
-							<!-- <ul class="stuff"> -->
-								<!-- <li><i class="icon-heart2"></i>249</li> -->
-								<!-- <li><i class="icon-eye2"></i>308</li> -->
-								<!-- <li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li> -->
-							<!-- </ul> -->
-						<!-- </div>  -->
-					<!-- </div> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-4"> -->
-					<!-- <div class="fh5co-blog animate-box"> -->
-						<!-- <a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a> -->
-						<!-- <div class="blog-text"> -->
-							<!-- <span class="posted_on">Mar. 15th 2016</span> -->
-							<!-- <h3><a href="#">Surfing at Philippines</a></h3> -->
-							<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
-							<!-- <ul class="stuff"> -->
-								<!-- <li><i class="icon-heart2"></i>249</li> -->
-								<!-- <li><i class="icon-eye2"></i>308</li> -->
-								<!-- <li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li> -->
-							<!-- </ul> -->
-						<!-- </div>  -->
-					<!-- </div> -->
-				<!-- </div> -->
-				<!-- <div class="col-md-4"> -->
-					<!-- <div class="fh5co-blog animate-box"> -->
-						<!-- <a href="#" class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a> -->
-						<!-- <div class="blog-text"> -->
-							<!-- <span class="posted_on">Mar. 15th 2016</span> -->
-							<!-- <h3><a href="#">Capture Living On Uderwater</a></h3> -->
-							<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
-							<!-- <ul class="stuff"> -->
-								<!-- <li><i class="icon-heart2"></i>249</li> -->
-								<!-- <li><i class="icon-eye2"></i>308</li> -->
-								<!-- <li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li> -->
-							<!-- </ul> -->
-						<!-- </div>  -->
-					<!-- </div> -->
-				<!-- </div> -->
-			<!-- </div> -->
-		<!-- </div> -->
-	<!-- </div> -->
 	
-	<!-- <div id="fh5co-started" class="fh5co-bg-dark"> -->
-		<!-- <div class="overlay"></div> -->
-		<!-- <div class="container"> -->
-			<!-- <div class="row animate-box"> -->
-				<!-- <div class="col-md-8 col-md-offset-2 text-center fh5co-heading"> -->
-					<!-- <h2>Hire Me!</h2> -->
-					<!-- <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p> -->
-					<!-- <p><a href="#" class="btn btn-default btn-lg">Contact Us</a></p> -->
-				<!-- </div> -->
-			<!-- </div> -->
-		<!-- </div> -->
-	<!-- </div> -->
+	<div id="fh5co-features" class="animate-box lang-fr" style="display:none;">
+    <div class="container">
+        <div class="services-padding">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h2>Mes Services</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h2>Consultation et mise en œuvre d'Odoo</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="feature-left">
+                        <span class="icon">
+                            <i class="icon-paintbrush"></i>
+                        </span>
+                        <div class="feature-copy">
+                            <h3>Mise en œuvre d'Odoo</h3>
+                            <p>Déployer et configurer le système ERP Odoo pour répondre aux besoins spécifiques de votre entreprise.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-left">
+                        <span class="icon">
+                            <i class="icon-briefcase"></i>
+                        </span>
+                        <div class="feature-copy">
+                            <h3>Développement de modules Odoo</h3>
+                            <p>Développement de modules Odoo personnalisés pour étendre les fonctionnalités.
+                            <br/>Intégration d'applications tierces avec Odoo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-left">
+                        <span class="icon">
+                            <i class="icon-search"></i>
+                        </span>
+                        <div class="feature-copy">
+                            <h3>Analyse et optimisation des processus métier</h3>
+                            <p>Analyser et modéliser les processus métier pour optimiser l'efficacité.
+                            <br/>Développer des spécifications fonctionnelles détaillées et des documents de besoins.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h2>Services de développement Web</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="feature-left">
+                        <span class="icon">
+                            <i class="icon-briefcase"></i>
+                        </span>
+                        <div class="feature-copy">
+                            <h3>Développement et conception de sites Web</h3>
+                            <p>Développement de sites Web personnalisés utilisant diverses technologies et plateformes.
+                            <br/>Conception réactive pour garantir que les sites Web sont adaptés aux mobiles.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-left">
+                        <span class="icon">
+                            <i class="icon-search"></i>
+                        </span>
+                        <div class="feature-copy">
+                            <h3>Solutions de commerce électronique</h3>
+                            <p>Développement et intégration de plateformes de commerce électronique.
+                            <br/>Personnalisation des boutiques en ligne, des passerelles de paiement et de la gestion des stocks.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-left">
+                        <span class="icon">
+                            <i class="icon-paintbrush"></i>
+                        </span>
+                        <div class="feature-copy">
+                            <h3>Maintenance et support de sites Web</h3>
+                            <p>Support continu pour les mises à jour de sites Web, la sécurité et l'optimisation des performances.
+                            <br/>Dépannage et résolution des problèmes de sites Web.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                    <h2>Services de formation et d'éducation</h2>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="feature-left">
+                        <span class="icon">
+                            <i class="icon-briefcase"></i>
+                        </span>
+                        <div class="feature-copy">
+                            <h3>Manuels d'utilisateur et matériels de formation</h3>
+                            <p>Création de manuels d'utilisateur et de tutoriels complets.
+                            <br/>Animation d'ateliers et de sessions de formation sur Odoo et le développement Web.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="feature-left">
+                        <span class="icon">
+                            <i class="icon-paintbrush"></i>
+                        </span>
+                        <div class="feature-copy">
+                            <h3>Rédaction technique</h3>
+                            <p>Rédaction de documentation technique pour les applications et systèmes logiciels.
+                            <br/>Rédaction de guides, FAQ et documents d'aide pour les utilisateurs finaux.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-	<!-- <div id="fh5co-consult"> -->
-		<!-- <div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);"> -->
-			<!-- <div class="overlay"></div> -->
-		<!-- </div> -->
-		<!-- <div class="choose animate-box"> -->
-			<!-- <h2>Contact</h2> -->
-			<!-- <form action="#"> -->
-				<!-- <div class="row form-group"> -->
-					<!-- <div class="col-md-6"> -->
-						<!-- <input type="text" id="fname" class="form-control" placeholder="Your firstname"> -->
-					<!-- </div> -->
-				<!-- </div> -->
-				<!-- <div class="row form-group"> -->
-					<!-- <div class="col-md-6"> -->
-						<!-- <input type="text" id="lname" class="form-control" placeholder="Your lastname"> -->
-					<!-- </div> -->
-				<!-- </div> -->
+	<div id="fh5co-skills" class="animate-box lang-en">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Work</h2>
+				</div>
+			</div>
+			
+			<div class="row">
+				<li class="timeline-heading text-center animate-box">
+					<div><h3>Construction sector</h3></div>
+				</li>
+				
+			<p>
+			Management of sales and maintenance contracts. <br/>
+			Personalization of quotes, invoices, contracts. <br/>
+			Customization of purchasing workflow; from the purchase request, supplier order to invoicing. <br/>
+			Setting up histories of advances, travel, etc. on the employee file. <br/>
+			Management of budgets and analytical allocations. <br/>
+			Establishment of a process for on-site interventions (preventive and curative) as well as workshop repairs.
+			</p>
+			
+				<li class="timeline-heading text-center animate-box">
+					<div><h3>Logistics sector</h3></div>
+				</li>
+			
+			
+			<p>
+			The establishment of a system for the management of national and international travel. <br/>
+			The establishment of visa histories, insurance, etc. on the employee file. <br/>
+			Management of tanks and fuel vouchers.
+			</p>
+			
+				<li class="timeline-heading text-center animate-box">
+					<div><h3>Aviation sector</h3></div>
+				</li>
+			
+			<p>
+			Development of a module for managing requests for mission orders and expense reports.
+			</p>
+				<li class="timeline-heading text-center animate-box">
+					<div><h3>Industrial sector</h3></div>
+				</li>
+			
+			<p>
+			Customization of Equipment Management module.<br/>
+			Customization of corrective and preventive maintenance management module.
+			</p>
+				<li class="timeline-heading text-center animate-box">
+					<div><h3>Telecommunications sector</h3></div>
+				</li>
+			
+			<p>
+			Development of a module for managing customer calls for tenders. <br/>
+			Management of tickets for different types of incidents: Temporary or permanent installation, uninstallation, complaint, after-sales service visit, technical advice. <br/>
+			Management of test requests from the sales module. <br/>
+			Management of telecom installation subscriptions.
+			</p>
+				<li class="timeline-heading text-center animate-box">
+					<div><h3>Catering sector</h3></div>
+				</li>
+			
+			<p>
+			Creation of a module for managing cruise table reservations.
+			</p>
+				<li class="timeline-heading text-center animate-box">
+					<div><h3>Retail sector</h3></div>
+				</li>
+			
+			<p>
+			Customization of POS modules to meet specific customer needs. <br/>
+			Creation of a module for sales monitoring.
+			</p>
+				<li class="timeline-heading text-center animate-box">
+					<div><h3>E-Commerce Sector</h3></div>
+				</li>
+			<p>
+			Creation of a module for parcel management. <br/>
+			The implementation of e-commerce. <br/>
+			Personalization of website pages. <br/>
+			Montico payment module configuration.
+			</p>
+				<li class="timeline-heading text-center animate-box">
+					<div><h3>SaaS solution</h3></div>
+				</li>
+			Creation of a SaaS solution under Odoo, allowing the creation of database instances from a form.
+			
+				<li class="timeline-heading text-center animate-box">
+					<div><h3>Dashboard</h3></div>
+				</li>
+			
+			Implementation of KPIs for all Odoo modules using the Ninja module.
+			
 
-				<!-- <div class="row form-group"> -->
-					<!-- <div class="col-md-12"> -->
-						<!-- <input type="text" id="email" class="form-control" placeholder="Your email address"> -->
-					<!-- </div> -->
-				<!-- </div> -->
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-skills" class="animate-box lang-fr" style="display:none;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                <h2>Projets réalisés</h2>
+            </div>
+        </div>
+        
+        <div class="row">
+            <li class="timeline-heading text-center animate-box">
+                <div><h3>Secteur de la construction</h3></div>
+            </li>
+            
+            <p>
+            Gestion des ventes et des contrats de maintenance. <br/>
+            Personnalisation des devis, factures, contrats. <br/>
+            Personnalisation du workflow d'achat; de la demande d'achat, commande fournisseur à la facturation. <br/>
+            Mise en place des historiques des avances, déplacements, etc. sur le dossier salarié. <br/>
+            Gestion des budgets et des affectations analytiques. <br/>
+            Mise en place d'un processus d'interventions sur site (préventives et curatives) ainsi que des réparations atelier.
+            </p>
+            
+            <li class="timeline-heading text-center animate-box">
+                <div><h3>Secteur de la logistique</h3></div>
+            </li>
+            
+            
+            <p>
+            Mise en place d'un système de gestion des déplacements nationaux et internationaux. <br/>
+            Mise en place des historiques de visas, assurances, etc. sur le dossier salarié. <br/>
+            Gestion des cuves et des bons de carburant.
+            </p>
+            
+            <li class="timeline-heading text-center animate-box">
+                <div><h3>Secteur de l'aviation</h3></div>
+            </li>
+            
+            <p>
+            Développement d'un module de gestion des demandes d'ordres de mission et des notes de frais.
+            </p>
+            <li class="timeline-heading text-center animate-box">
+                <div><h3>Secteur industriel</h3></div>
+            </li>
+            
+            <p>
+            Personnalisation du module de gestion des équipements.<br/>
+            Personnalisation du module de gestion de la maintenance corrective et préventive.
+            </p>
+            <li class="timeline-heading text-center animate-box">
+                <div><h3>Secteur des télécommunications</h3></div>
+            </li>
+            
+            <p>
+            Développement d'un module de gestion des appels d'offres clients. <br/>
+            Gestion des tickets pour différents types d'incidents : installation temporaire ou permanente, désinstallation, réclamation, visite SAV, conseil technique. <br/>
+            Gestion des demandes de tests depuis le module de vente. <br/>
+            Gestion des abonnements d'installation télécom.
+            </p>
+            <li class="timeline-heading text-center animate-box">
+                <div><h3>Secteur de la restauration</h3></div>
+            </li>
+            
+            <p>
+            Création d'un module de gestion des réservations de tables de croisière.
+            </p>
+            <li class="timeline-heading text-center animate-box">
+                <div><h3>Secteur de la vente au détail</h3></div>
+            </li>
+            
+            <p>
+            Personnalisation des modules de point de vente pour répondre aux besoins spécifiques des clients. <br/>
+            Création d'un module de suivi des ventes.
+            </p>
+            <li class="timeline-heading text-center animate-box">
+                <div><h3>E-Commerce</h3></div>
+            </li>
+            <p>
+            Création d'un module de gestion des colis. <br/>
+            Mise en place de l'e-commerce. <br/>
+            Personnalisation des pages du site web. <br/>
+            Configuration du module de paiement Montico.
+            </p>
+            <li class="timeline-heading text-center animate-box">
+                <div><h3>Solution SaaS</h3></div>
+            </li>
+            Création d'une solution SaaS sous Odoo, permettant la création d'instances de base de données à partir d'un formulaire.
+            
+            <li class="timeline-heading text-center animate-box">
+                <div><h3>Tableau de bord</h3></div>
+            </li>
+            
+            Mise en place des KPIs pour tous les modules Odoo en utilisant le module Ninja.
+            
 
-				<!-- <div class="row form-group"> -->
-					<!-- <div class="col-md-12"> -->
-						<!-- <input type="text" id="subject" class="form-control" placeholder="Your subject of this message"> -->
-					<!-- </div> -->
-				<!-- </div> -->
+        </div>
+    </div>
+</div>
 
-				<!-- <div class="row form-group"> -->
-					<!-- <div class="col-md-12"> -->
-						<!-- <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea> -->
-					<!-- </div> -->
-				<!-- </div> -->
-				<!-- <div class="form-group"> -->
-					<!-- <input type="submit" value="Send Message" class="btn btn-primary"> -->
-				<!-- </div> -->
-
-			<!-- </form>	 -->
-		<!-- </div> -->
-	<!-- </div> -->
-
-	<!-- <div id="map" class="fh5co-map"></div> -->
-	<!-- </div> -->
 	
-	<!-- <div id="fh5co-footer"> -->
-		<!-- <div class="container"> -->
-			<!-- <div class="row"> -->
-				<!-- <div class="col-md-12"> -->
-					<!-- <p>&copy; 2017 Free HTML5 Template. All Rights Reserved. <br>Designed by <a href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.com" target="_blank">Unsplash</a></p> -->
-				<!-- </div> -->
-			<!-- </div> -->
-		<!-- </div> -->
-	<!-- </div> -->
+	
+	<div id="fh5co-started" class="fh5co-bg-dark lang-en">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Hire Me !</h2>
+					<p><a href="https://calendly.com/ichibizahra/30min" target="_blank" class="btn btn-default btn-lg">30 Minute Meeting</a></p>
+					<p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=ichibizahra@gmail.com" target="_blank" class="btn btn-default btn-lg">Send Email</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-started" class="fh5co-bg-dark lang-fr" style="display:none;">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Me contacter</h2>
+					<p><a href="https://calendly.com/ichibizahra/30min" target="_blank" class="btn btn-default btn-lg">Réunion de 30 Minute</a></p>
+					<p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=ichibizahra@gmail.com" target="_blank" class="btn btn-default btn-lg">Contactez moi par mail</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
@@ -861,7 +865,28 @@ If you have any Odoo-related needs, don't hesitate to contact me. Even if it's j
 	
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script>
+		document.getElementById('enButton').addEventListener('click', function() {
+			document.querySelectorAll('.lang-en').forEach(function(el) {
+				el.style.display = 'block';
+			});
+			document.querySelectorAll('.lang-fr').forEach(function(el) {
+				el.style.display = 'none';
+			});
+		});
 
+		document.getElementById('frButton').addEventListener('click', function() {
+			document.querySelectorAll('.lang-fr').forEach(function(el) {
+				el.style.display = 'block';
+			});
+			document.querySelectorAll('.lang-en').forEach(function(el) {
+				el.style.display = 'none';
+			});
+		});
+
+		// Set default language
+		document.getElementById('enButton').click();
+	</script>
 	</body>
 </html>
 
